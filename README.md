@@ -8,3 +8,4 @@ For an example `renovate.json` file with comment explainations, see [example.ren
 
 Just making a change
 
+new

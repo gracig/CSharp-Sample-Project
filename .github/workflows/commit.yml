@@ -6,7 +6,8 @@ on:
     branches: [ main ]
   workflow_dispatch: {}
 jobs:
-  uses: "gracig/actions/.github/workflows/main.yml@main"
-  with:
-    WORKFLOW_TAGs: |
-      dotnet/v1
+  main:
+    uses: "gracig/actions/.github/workflows/main.yml@main"
+    with:
+      WORKFLOW_TAGs: |
+        dotnet/v1

@@ -13,4 +13,5 @@ jobs:
         dotnet/v1
       DEPLOY_BRANCH: true
       ENV_REPO: repo
+      ACR_USERNAME:: ${{ secrets.ACR_USERNAME }}
 

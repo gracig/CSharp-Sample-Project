@@ -11,3 +11,6 @@ jobs:
     with:
       WORKFLOW_TAGs: |
         dotnet/v1
+      DEPLOY_BRANCH: true
+      ENV_REPO: repo
+

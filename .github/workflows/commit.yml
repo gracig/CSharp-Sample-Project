@@ -1,0 +1,12 @@
+name: Commit
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: {}
+jobs:
+  uses: "gracig/actions/.github/workflows/main.yml@main"
+  with:
+    WORKFLOW_TAGs: |
+      dotnet/v1

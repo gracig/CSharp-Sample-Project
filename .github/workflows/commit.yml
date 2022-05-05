@@ -16,13 +16,13 @@ jobs:
       DOTNET_SOLUTION_FILE: NG.CS.SampleWebApi.sln
       DOTNET_APP_PATH: ./
       DOTNET_NUGET_SLEET_FEED_NAMES: LibNugetFeed CCRFeed
-      CONTAINER_BUILD_STRATEGY: docker-compose/v1
       CONTAINER_AWS_REPO_NAME: awsrepo
       CONTAINER_AZURE_REPO_NAME: azurerepo
       WORKFLOW_TAGs: |
-        dotnet/v1
+        dotnet/v2
         container/v1
-        argocd-deploy/v1
+        argocd-deploy/v2
         debug
 
       DOTNET_NUGET_STRATEGY: none
+      CONTAINER_BUILD_STRATEGY: none

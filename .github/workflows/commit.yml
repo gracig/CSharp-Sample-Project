@@ -17,6 +17,8 @@ jobs:
       DOTNET_APP_PATH: ./
       DOTNET_NUGET_SLEET_FEED_NAMES: LibNugetFeed CCRFeed
       CONTAINER_BUILD_STRATEGY: docker-cli/v1
+      CONTAINER_AWS_REPO_NAME: awsrepo
+      CONTAINER_AZURE_REPO_NAME: azurerepo
       WORKFLOW_TAGs: |
         dotnet/v1
         container/v1

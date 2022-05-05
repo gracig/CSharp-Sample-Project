@@ -15,7 +15,9 @@ jobs:
       DOTNET_SDK_VERSION: 6.0.x
       DOTNET_SOLUTION_FILE: NG.CS.SampleWebApi.sln
       DOTNET_APP_PATH: ./
-      DOTNET_NUGET_SLEET_FEED_NAMES: LibNugetFeed CCRFeed
+      DOTNET_NUGET_SLEET_FEED_NAMES: |
+        LibNugetFeed
+        CCRFeed
       WORKFLOW_TAGs: |
         dotnet/v1
         container/v1

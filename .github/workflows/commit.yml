@@ -6,7 +6,7 @@ on:
     types: do-something
 jobs:
   main:
-    uses: "gracig/actions/.github/workflows/main.yml@main"
+    uses: "gracig/actions/.github/workflows/main.yaml@main"
     secrets: inherit
     with:
       WORKFLOW_TAGs: |

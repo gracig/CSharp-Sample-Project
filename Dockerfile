@@ -1,9 +1,5 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0
+FROM alpine:latest
 
-COPY . /app
-
-WORKDIR /app
-
-CMD ["bash"]
+CMD ["sleep", "10"]
 
 

@@ -16,6 +16,7 @@ jobs:
       DOTNET_SOLUTION_FILE: NG.CS.SampleWebApi.sln
       DOTNET_APP_PATH: ./
       DOTNET_NUGET_SLEET_FEED_NAMES: LibNugetFeed CCRFeed
+      CONTAINER_BUILD_STRATEGY: dockercli/v1
       WORKFLOW_TAGs: |
         dotnet/v1
         container/v1

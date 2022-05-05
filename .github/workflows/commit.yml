@@ -11,6 +11,8 @@ jobs:
     with:
       WORKFLOW_TAGs: |
         dotnet/v1
+        container/v1
+        debug
       DEPLOY_BRANCH: true
       ENV_REPO: repo
     secrets: inherit

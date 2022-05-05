@@ -12,8 +12,9 @@ jobs:
       APP_VERSION: 1.0.0
       ENV_REPO: repo
       DEPLOY_BRANCH: true
-      DOTNET_SOLUTION_FILE: NG.CS.SampleWebApi.sln
       DOTNET_SDK_VERSION: 6.0.x
+      DOTNET_SOLUTION_FILE: NG.CS.SampleWebApi.sln
+      DOTNET_APP_PATH: ./
       WORKFLOW_TAGs: |
         dotnet/v1
         container/v1

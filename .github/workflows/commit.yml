@@ -17,6 +17,7 @@ jobs:
         debug
       DOTNET_SOLUTION_FILE: NG.CS.SampleWebApi.sln
       DOTNET_SDK_VERSION: 6.0.x
+      DOTNET_APP_VERSION: 1.0.0:${{ github.sha }}
       DEPLOY_BRANCH: true
       ENV_REPO: repo
 

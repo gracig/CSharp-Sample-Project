@@ -15,7 +15,9 @@ jobs:
         dotnet/v1
         container/v1
         debug
+      DOTNET_SOLUTION_FILE: NG.CS.SampleWebApi.sln
       DEPLOY_BRANCH: true
       ENV_REPO: repo
+
     secrets: inherit
 

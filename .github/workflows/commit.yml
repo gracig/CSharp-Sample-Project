@@ -10,8 +10,8 @@ jobs:
     secrets: inherit
     with:
       WORKFLOW_TAGs: |
-        dotnet/v2
-        container/v2
+        dotnet/v1
+        container/v1
         argocd-deploy/v1
         debug
       
